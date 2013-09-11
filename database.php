@@ -57,7 +57,7 @@ class Database
 	 */
 	public function use_existing_pdo($pdo)
 	{
-		$this->PDO-connection = $pdo;
+		$this->PDO->connection = $pdo;
 	}
 	
 	/**
